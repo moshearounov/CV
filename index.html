@@ -59,14 +59,14 @@
       <td>Ondernemen &#11088;&#11088;&#11088;&#11088;&#11088;&#11088;</td>
       <td>Communicatie &#11088;&#11088;&#11088;&#11088;&#11088;&#11088;</td>
     </table>
-    <form class="" action="mailto:info@autoatlas.nl" method="post">
-      <label> Voornaam </label>
-      <input type="text" name="" value="" /><br />
-      <label> Achternaam </label>
-      <input type="text" name="" value="" /><br />
-      <label> Datum </label>
-      <input type="date" name="" value="" /><br />
-      <input type="submit" name="" value="submit" />
+    <form action="mailto:info@autoatlas.nl" method="post">
+      <label for="voornaam_input">Voornaam</label>
+      <input type="text" name="voornaam" id="voornaam_input" /><br />
+      <label for="achternaam_input">Achternaam</label>
+      <input type="text" name="achternaam" id="achternaam_input" /><br />
+      <label for="datum_input">Datum</label>
+      <input type="date" name="datum" id="datum_input" /><br />
+      <input type="submit" value="Verstuur" aria-label="Verstuur" />
     </form>
   </body>
 </html>
